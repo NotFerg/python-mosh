@@ -1,26 +1,35 @@
-# print("Hello World 😺")
-# print("*" * 10)
+# # print("Hello World 😺")
+# # print("*" * 10)
 
-x = 1
-y = 2
-unit_price = 3
+# x = 1
+# y = 2
+# unit_price = 3
 
-students_count = 1000
-rating = 4.99
-is_published = False
-course_name = "Python Programming"
+# students_count = 1000
+# rating = 4.99
+# is_published = False
+# course_name = "Python Programming"
 # print(students_count)
-print(len(course_name))
-print(course_name[0])
-print(course_name[-1])
-print(course_name[0:3])
-print(course_name[0:])
-print(course_name[:3])
+# print(len(course_name))
+# print(course_name[0])
+# print(course_name[-1])
+# print(course_name[0:3])
+# print(course_name[0:])
+# print(course_name[:3])
 
-course = "Python \"Programming"
-print(course)
+# course = "Python \"Programming"
+# print(course)
 
-first = "Mosh"
-last = "Hamedani"
-full = f"{first} {last}"
-print(full)
+# first = "Mosh"
+# last = "Hamedani"
+# full = f"{first} {last}"
+# print(full)
+
+course = "Python Programing"
+print(course.upper())
+print(course.lower())
+print(course.title())
+print(course.strip())
+print(course.find("Pro"))
+print("pro" in course)
+print("swift" not in course)
