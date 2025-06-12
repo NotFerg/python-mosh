@@ -127,3 +127,34 @@
 
 
 # print(f"We have ${counter} even numbers")
+
+# def greet(first_name, last_name):
+#     print(f"Hi {first_name} {last_name}")
+#     print("Welcome aboard")
+
+
+# greet("Fergus", "Miles")
+
+# def greet(name):
+#     print(f"Hi {name}")
+
+
+# def get_greeting(name):
+#     return f"Hi {name}"
+
+
+# message = get_greeting("Ferg")
+# print(message)
+
+# def increment(number, by):
+#     return number + by
+
+
+# print(increment(2, by=1))
+
+
+def increment(number, by=1):
+    return number + by
+
+
+print(increment(2))
