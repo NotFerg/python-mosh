@@ -60,13 +60,34 @@
 # y = int(x)+1
 # print(f"x:{x}, y: {y}")
 
-temperature = 1
-if temperature > 30:
-    print("It's warm")
-elif temperature > 20:
-    print("Its nice")
-else:
-    print("It's cold")
+# temperature = 1
+# if temperature > 30:
+#     print("It's warm")
+# elif temperature > 20:
+#     print("Its nice")
+# else:
+#     print("It's cold")
 
+# print("Done")
 
-print("Done")
+# age = 18
+# message = "Eligible" if age >= 18 else "Not Eligible"
+
+# high_income = True
+# good_credit = True
+# student = True
+
+# if high_income and good_credit:
+#     print("Eligible")
+
+# if not student:
+#     print("Eligible")
+# else:
+#     print("Not Eligible")
+
+# if high_income and good_credit and not student:
+#     print("Eligible")
+
+age = 22
+if 18 <= age < 65:
+    print("Eligible")
