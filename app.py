@@ -1,4 +1,4 @@
-import math
+# import math
 # # print("Hello World 😺")
 # # print("*" * 10)
 
@@ -56,6 +56,17 @@ import math
 # print(abs(-2.9))
 # print(math.ceil(2.2))
 
-x = input("x: ")
-y = int(x)+1
-print(f"x:{x}, y: {y}")
+# x = input("x: ")
+# y = int(x)+1
+# print(f"x:{x}, y: {y}")
+
+temperature = 1
+if temperature > 30:
+    print("It's warm")
+elif temperature > 20:
+    print("Its nice")
+else:
+    print("It's cold")
+
+
+print("Done")
