@@ -88,6 +88,42 @@
 # if high_income and good_credit and not student:
 #     print("Eligible")
 
-age = 22
-if 18 <= age < 65:
-    print("Eligible")
+# age = 22
+# if 18 <= age < 65:
+#     print("Eligible")
+
+# for number in range(1, 10, 2):
+#     print("Attempt", number, (number) * '.')
+
+# successful = False
+# for number in range(3):
+#     print("Attempt")
+#     if successful:
+#         print("Successful")
+#         break
+# else:
+#     print("Attempted 3 times and failed")
+
+# for x in range(5):
+#     for y in range(3):
+#         print(f"({x},{y})")
+
+# print(type(5))
+# print(type(range(5)))
+
+# for x in "Python":
+#     print(x)
+
+# number = 100
+# while number > 0:
+#     print(number)
+#     number //= 2
+
+# counter = 0
+# for number in range(1, 10):
+#     if number % 2 == 0:
+#         counter += 1
+#         print(number)
+
+
+# print(f"We have ${counter} even numbers")
